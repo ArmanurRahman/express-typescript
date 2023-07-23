@@ -1,6 +1,5 @@
 import express from "express";
 import bodyParser from "body-parser";
-import { router } from "./controllers/decorators/controller";
 import "./controllers/LoginController";
 import { AppRouter } from "./AppRouter";
 
